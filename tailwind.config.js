@@ -8,6 +8,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+      typography: require("./typography"),
       colors: {
         primary: {
           400: "rgb(244 114 182)",
